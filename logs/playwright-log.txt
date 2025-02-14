@@ -1,0 +1,39 @@
+{"level":30,"time":"2024-12-18T20:40:05.604Z","pid":94395,"hostname":"ismael","msg":"Listening on 38685"}
+(node:94395) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-12-18T20:40:05.736Z","pid":94395,"hostname":"ismael","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-18T20:40:05.737Z","pid":94395,"hostname":"ismael","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-18T20:40:05.746Z","pid":94395,"hostname":"ismael","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-18T20:40:05.746Z","pid":94395,"hostname":"ismael","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/index.js:11364:59)
+    at PlaywrightServer.setTimeout (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/index.js:11603:57)
+    at Object.onReceiveHalfClose (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-12-18T20:40:06.424Z","pid":94395,"hostname":"ismael","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-18T20:40:06.426Z","pid":94395,"hostname":"ismael","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/index.js:11364:59)
+    at PlaywrightServer.setTimeout (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/index.js:11603:57)
+    at Object.onReceiveHalfClose (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/nunes/.pyenv/versions/3.12.4/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-12-18T20:40:06.491Z","pid":94395,"hostname":"ismael","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-18T20:40:06.491Z","pid":94395,"hostname":"ismael","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-18T20:40:06.633Z","pid":94395,"hostname":"ismael","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-12-18T20:40:06.643Z","pid":94395,"hostname":"ismael","msg":"End of node method closeAllBrowsers"}
