@@ -27,9 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt 
 
-      - name: Browser Init
-        run: rfbrowser init
-
       - name: Run E2E Tests
         run: robot -d ./logs -v BROWSER:${{ matrix.browser }} tests
 
